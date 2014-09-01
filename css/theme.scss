@@ -29,6 +29,9 @@ body {
 	margin-left: 4em;
 }
 
+#mc_embed_signup form {
+	padding: 0 !important;
+}
 
 .signup-form {
 	font-weight: 300;
@@ -51,9 +54,8 @@ body {
 				background-color: orange;
 				color: white;
 				height: 2.5em;
-				margin-left: 1em;
-				margin-top: 2em;
-				width: 6em;
+				margin-top: 1.5em;
+				width: 8em;
 
 			}
 		}
