@@ -8,21 +8,16 @@ body {
 
 .box {
   width: 35rem;
-  height: 30rem;
+  height: 28rem;
   background-color: #fff;
   margin: 4rem auto 12rem auto;
   border-radius: 5px;
   /* Allow the child to be place with absolute position */
   position: relative; }
   .box #mc_embed_signup {
-    position: absolute;
-    top: 50%;
-    /* center vertically */
-    left: 50%;
-    /* center horizontally */
-    transform: translateY(-50%) translateX(-50%);
-    /* correct the possition */
-    width: 25rem; }
+    width: 25rem;
+    margin: 0 5rem 5rem;
+    padding-top: 2rem; }
     .box #mc_embed_signup .button {
       background-color: #A0C6F6;
       font-weight: 400; }
@@ -42,7 +37,8 @@ body {
 
 @media all and (max-width: 480px) {
   .box {
-    max-width: 90%;
-    text-align: center;
-    margin: 2rem auto;
-    padding: 40px 20px; } }
+    background-color: white;
+    width: 308px;
+    height: 450px;
+    top: 0%;
+    left: 0%; } }
