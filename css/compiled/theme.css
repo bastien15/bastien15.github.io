@@ -37,10 +37,5 @@ body {
 
 @media all and (max-width: 480px) {
   .box {
-    max-width: 90%;
-    text-align: center;
-    margin: 2rem auto; }
-    .box #mc_embed_signup {
-      margin: 0;
-      padding-left: 2rem;
-      padding-right: 2rem; } }
+    max-width: 95%;
+    margin: 2rem auto; } }
