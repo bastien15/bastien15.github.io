@@ -39,5 +39,6 @@ body {
   .box {
     max-width: 90%;
     text-align: center;
-    margin: 2rem auto;
-    padding: 40px 20px; } }
+    margin: 2rem auto; }
+    .box #mc_embed_signup {
+      margin: 0; } }
