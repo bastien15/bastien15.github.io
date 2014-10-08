@@ -45,9 +45,8 @@ body {
     background: none !important;
     color: white;
     margin: 0;
-    margin-bottom: 7rem;
-    margin-top: 0; }
-
-  #mc_embed_signup {
     top: 0;
-    left: 0; } }
+    /* center vertically */
+    left: 0;
+    /* center horizontally */
+    transform: 0; } }
