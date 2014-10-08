@@ -56,13 +56,9 @@ body {
 @media all and (max-width:480px){
 
   .box{
-    background: none !important;
-    color: white;
-    margin-top: 0px;
-    top: 0px; /* center vertically */
-    left: 0px; /* center horizontally */
-    transform: 0;
-    width: 0;
-    height: 0;
+    max-width: 320px;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 40px 20px;
   }
 }
