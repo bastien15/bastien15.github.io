@@ -1,65 +1,53 @@
-// body {
-// 	font-family: 'Open Sans', sans-serif;
-// }
+body {
+  background-color: #094EA8 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
 
-// .background {
-//  	background: url(../../background-web.jpg) no-repeat center center; 
-// 	background-size: cover;
-// 	height: 28em;
-// }
+.logo {
+  img {
+    margin-top: 130px;
+    width: 200px;
+  }
+}
 
-// .logo {
-// 	margin-top: 20em;
-// 	width: 30em;
-// 	@media
-// }
+.box {
+  width: 35rem;
+  height: 30rem;
+  background-color: #fff;
+  margin: 40px auto 75px auto;
+  border-radius: 5px;
+  /* Allow the child to be place with absolute position */
+  position: relative;
 
-// .overlay {
-// 	z-index: 1;
-// 	height: 100%;
-// 	width: 100%;
-// 	overflow: auto;
-// 	top: 0px;
-// 	left: 0px;
-// 	background: rgba(30, 144, 255, .5);
-// }
+  #mc_embed_signup {
+    position: absolute;
+    top: 50%; /* center vertically */
+    left: 50%; /* center horizontally */
+    transform: translateY(-50%) translateX(-50%); /* correct the possition */
+    width: 80%;
 
-// .value-prop-sec {
-// 	border-right: 1px solid black;
-// 	height: 15em;
-// 	margin-left: 4em;
-// }
+    .button {
+      background-color: #A0C6F6;
+      font-weight: 400;
+    }
 
-// #mc_embed_signup form {
-// 	padding: 0 !important;
-// }
+    .button:hover {
+      background-color: #447BC1;
+    }
 
-// .signup-form {
-// 	font-weight: 300;
-// 	margin-top: 2em;
-// 	h4 {
-// 		font-weight: 400;
-// 	}
-// 	input#mce-EMAIL {
-// 		border: 1px solid grey;
-// 		border-radius: 2px;
-// 		height: 2.5em;
-// 		width:20em;
-// 	}
+    div.mce_inline_error {
+      background-color: red;
+      font-weight: 400;
+    }
+  }
+}
 
-// 	form {
-// 		.clear {
-// 			#mc-embedded-subscribe {
-// 				border: none;
-// 				border-radius: 4px;
-// 				background-color: orange;
-// 				color: white;
-// 				height: 2.5em;
-// 				margin-top: 1.5em;
-// 				width: 8em;
+.mc-field-group{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
 
-// 			}
-// 		}
-
-// 	}
-// }
+.footer {
+  font-size: 13px;
+  color: #569BF4 !important;
+}
