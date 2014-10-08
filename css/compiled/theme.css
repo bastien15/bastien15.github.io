@@ -1,43 +1,53 @@
-/*
-Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 68 of theme.scss
+body {
+  background-color: #094EA8 !important;
+  font-family: 'Roboto', sans-serif !important; }
 
-63: 
-64:     #mc_embed_signup {
-65:       top: 0%; /* center vertically *\/
-66:       left: 0%; /* center horizontally *\/
-67:     }
-68: }
+.logo img {
+  margin-top: 10rem;
+  width: 200px; }
 
-Backtrace:
-theme.scss:68
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:1312:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:1248:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:1243:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:642:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:402:in `media_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:221:in `special_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:193:in `directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:659:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:652:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:116:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/engine.rb:409:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/engine.rb:274:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:186:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:357:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.3.11/lib/sass/plugin/compiler.rb:250:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 68 of theme.scss\A \A 63: \A 64:     #mc_embed_signup {\A 65:       top: 0%; /* center vertically */\A 66:       left: 0%; /* center horizontally */\A 67:     }\A 68: }"; }
+.box {
+  width: 35rem;
+  height: 30rem;
+  background-color: #fff;
+  margin: 4rem auto 12rem auto;
+  border-radius: 5px;
+  /* Allow the child to be place with absolute position */
+  position: relative; }
+  .box #mc_embed_signup {
+    position: absolute;
+    top: 50%;
+    /* center vertically */
+    left: 50%;
+    /* center horizontally */
+    transform: translateY(-50%) translateX(-50%);
+    /* correct the possition */
+    width: 80%; }
+    .box #mc_embed_signup .button {
+      background-color: #A0C6F6;
+      font-weight: 400; }
+    .box #mc_embed_signup .button:hover {
+      background-color: #447BC1; }
+    .box #mc_embed_signup div.mce_inline_error {
+      background-color: red;
+      font-weight: 400; }
+
+.mc-field-group {
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+.footer {
+  font-size: 13px;
+  color: #569BF4 !important; }
+
+@media all and (max-width: 480px) {
+  .box {
+    max-width: 320px;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 40px 20px; }
+    .box #mc_embed_signup {
+      top: 0%;
+      /* center vertically */
+      left: 0%;
+      /* center horizontally */ } }
