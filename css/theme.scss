@@ -62,8 +62,6 @@ body {
     padding: 40px 20px;
   }
   #mc_embed_signup {
-    top: 50%; /* center vertically */
-    left: 0; /* center horizontally */
-    transform: 0;
+    transform: translateY(-50%) translateX(-50%);
   }
 }
