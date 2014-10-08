@@ -45,4 +45,11 @@ body {
     max-width: 320px;
     text-align: center;
     margin: 2rem auto;
-    padding: 40px 20px; } }
+    padding: 40px 20px; }
+
+  #mc_embed_signup {
+    top: 50%;
+    /* center vertically */
+    left: 0;
+    /* center horizontally */
+    transform: 0; } }
