@@ -56,14 +56,10 @@ body {
 @media all and (max-width:480px){
 
   .box{
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     margin: 2rem auto;
     padding: 40px 20px;
 
-    #mc_embed_signup {
-      top: 0%; /* center vertically */
-      left: 0%; /* center horizontally */
-    }
   }
 }
