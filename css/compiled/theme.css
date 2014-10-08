@@ -44,9 +44,9 @@ body {
   .box {
     background: none !important;
     color: white;
-    margin: 0;
-    top: 0;
+    margin-top: 0px;
+    top: 0px;
     /* center vertically */
-    left: 0;
+    left: 0px;
     /* center horizontally */
     transform: 0; } }
