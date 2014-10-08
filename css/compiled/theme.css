@@ -49,4 +49,6 @@ body {
     /* center vertically */
     left: 0px;
     /* center horizontally */
-    transform: 0; } }
+    transform: 0;
+    width: 0;
+    height: 0; } }
