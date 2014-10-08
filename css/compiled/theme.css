@@ -41,4 +41,6 @@ body {
     text-align: center;
     margin: 2rem auto; }
     .box #mc_embed_signup {
-      margin: 0; } }
+      margin: 0;
+      padding-left: 1rem;
+      padding-right: 1rem; } }
