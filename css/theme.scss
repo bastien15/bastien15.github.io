@@ -55,10 +55,9 @@ body {
 
 @media all and (max-width:480px){
 
-.box{
-  background: none !important;
-  color: white;
-}
-
-
+  .box{
+    background: none !important;
+    color: white;
+    margin: 0;
+  }
 }

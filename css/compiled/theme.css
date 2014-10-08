@@ -43,4 +43,5 @@ body {
 @media all and (max-width: 480px) {
   .box {
     background: none !important;
-    color: white; } }
+    color: white;
+    margin: 0; } }
