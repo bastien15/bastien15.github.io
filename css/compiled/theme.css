@@ -22,7 +22,7 @@ body {
     /* center horizontally */
     transform: translateY(-50%) translateX(-50%);
     /* correct the possition */
-    width: 80%; }
+    width: 25rem; }
     .box #mc_embed_signup .button {
       background-color: #A0C6F6;
       font-weight: 400; }
