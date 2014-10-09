@@ -1,0 +1,14 @@
+{
+  "name": "typewriter",
+  "homepage": "https://github.com/fardjad/realistic-typewriter.js",
+  "_release": "4b71b88524",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4b71b88524cb43f5db3841156d844611eeff6426"
+  },
+  "_source": "git://github.com/fardjad/realistic-typewriter.js.git",
+  "_target": "*",
+  "_originalSource": "typewriter",
+  "_direct": true
+}

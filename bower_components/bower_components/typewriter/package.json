@@ -1,0 +1,39 @@
+{
+  "name": "typewriter",
+  "version": "0.2.0",
+  "author": "Fardjad Davari <public@fardjad.com>",
+  "description": "A library for simulating typewriter effect in the browser",
+  "contributors": [
+    {
+      "name": "Fardjad Davari",
+      "email": "public@fardjad.com"
+    }
+  ],
+  "scripts": {
+    "test": "cake test",
+    "postinstall": "cake all"
+  },
+  "main": "./build/typewriterbuilder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fardjad/realistic-typewriter.js"
+  },
+  "keywords": [
+    "realisitc-typewriter.js",
+    "typewriter"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "browserify": "~4.2.1",
+    "uglify-js": "~2.4.15"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "archiver": "~0.10.1"
+  },
+  "bundledDependencies": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}

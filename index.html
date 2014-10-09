@@ -8,10 +8,22 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
     <link href="css/compiled/theme.css" rel="stylesheet">
     <!-- Bootstrap -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <div id="preloader">
+      <div class="text-center">
+        <div class="loader">
+          <img src="images/3dots.svg">
+        </div>
+        <h2 class="typewriter-txt">
+        </h2>        
+      </div>
+    </div>
     <div class="container">
       <div class="logo text-center">
         <img src="images/audibilitylogo.svg">
@@ -46,8 +58,46 @@
       <!--End mc_embed_signup-->
     </div>
     <p class="footer text-center" id="footer" style="opacity: 1;">© 2014 Audibility, Inc.</p>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+
+    <!-- Preloader functionality -->
+    <script type="text/javascript">
+      $(window).load(function() { // makes sure the whole site is loaded
+        $('#preloader').delay(3500).fadeOut('fast'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow':'visible'});
+      })
+    </script>
+
+<!--     Typewriter
+    https://www.youtube.com/watch?v=exeO60o3CzE -->
+    <script type="text/javascript">
+      var text ="";
+      var count = 0;
+      var maxspeed = 200;
+
+      $(document).ready(function(){
+
+        function typeit(typed) {
+          text = typed;
+          type();
+        }
+
+        function character(start, end, text) {
+          return text.substring(start, end);
+        }
+
+        function type(){
+          var random = Math.floor(Math.random() * maxspeed);
+          setTimeout(type, random);
+          $('.typewriter-txt').append(character(count, count+1, text));
+          count++;
+        }
+
+        typeit("Join the waitlist.")
+      });
+    </script>
+
+
+
   </body>
 </html>

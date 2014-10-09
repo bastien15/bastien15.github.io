@@ -60,3 +60,26 @@ body {
     }
   }
 }
+
+// Preloader
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #094EA8;
+    z-index:99; /* stay on top */
+}
+
+.loader {
+  img {
+    margin-top: 10rem;
+    width: 50px;
+  }
+}
+
+.typewriter-txt {
+  color: white;
+  font-weight: 400;
+}
