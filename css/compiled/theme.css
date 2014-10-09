@@ -38,7 +38,7 @@ body {
 @media all and (max-width: 480px) {
   .box {
     max-width: 95%;
-    margin: 2rem auto; } }
+    margin: 2rem 0 2rem 0; } }
 #preloader {
   position: fixed;
   top: 0;
