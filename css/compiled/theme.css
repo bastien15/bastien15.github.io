@@ -38,7 +38,9 @@ body {
 @media all and (max-width: 480px) {
   .box {
     max-width: 95%;
-    margin: 2rem 0 2rem 0; } }
+    margin: 2rem 0 2rem 0; }
+    .box #mc_embed_signup {
+      margin: auto; } }
 #preloader {
   position: fixed;
   top: 0;
