@@ -36,6 +36,9 @@ body {
   color: #569BF4 !important; }
 
 @media all and (max-width: 480px) {
+  .logo img {
+    margin-top: 5rem; }
+
   .box {
     max-width: 95%;
     margin: 2rem auto; }

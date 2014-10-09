@@ -50,6 +50,12 @@ body {
 }
 
 @media all and (max-width:480px){
+  
+  .logo {
+    img {
+      margin-top: 5rem;
+    }
+  }
 
   .box{
     max-width: 95%;
