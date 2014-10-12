@@ -110,3 +110,14 @@ body {
     z-index: 1;
   }
 }
+
+.thumbs-down {
+  img {
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 100%;
+    
+    /* Set up positioning */
+    position: absolute;
+  }
+}
