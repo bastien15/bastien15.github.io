@@ -61,3 +61,17 @@ body {
 .typewriter-txt {
   color: white;
   font-weight: 300; }
+
+.thumbs-up img {
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+  /* Set up positioning */
+  position: absolute; }
+.thumbs-up .thanks-txt {
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 1; }
